@@ -8,3 +8,5 @@ while counter < 6:
             counter += 1
     except ValueError:
         print("Ошибка - вы ввели не число\n")
+for i in sorted(arr_numbers):
+    print(int(i))
