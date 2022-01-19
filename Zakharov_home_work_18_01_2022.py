@@ -7,6 +7,6 @@ while counter < 6:
             arr_numbers.append(a)
             counter += 1
     except ValueError:
-        print("Ошибка - вы ввели не число\n")
+        print("Ошибка - вы ввели не число, повторите ввод\n")
 for i in sorted(arr_numbers):
     print(int(i))
